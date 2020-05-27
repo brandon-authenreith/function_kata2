@@ -10,7 +10,7 @@ console.log(add(1, 8))
 
 function mult (c, d) {
     let multi = c;
-    for (let i = 1; i < d; i++) {
+    for (let i = 1; i < d; i++) { //moves through array
         multi = add (c, multi);
     }
     return multi;
@@ -39,3 +39,5 @@ function factorial (z) {
     return fact;
 }
 console.log(factorial(8))
+
+//5
